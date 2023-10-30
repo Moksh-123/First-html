@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    width: 100%;
+}
+.img{
+    float: left;
+}
+.fl{
+    float: left;
+}
+.w-40{
+    width: 40%;
+}
+.cname{
+    font-size: 40px;
+    font-family: Calibri;
+    letter-spacing: 2px;
+}

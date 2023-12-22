@@ -136,7 +136,7 @@
 .btn1{
     border: 1px solid #f75757; 
     border-radius: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:  Cambria;
     width: 170px;
     background-color: #f75757;
     color: white;
@@ -230,8 +230,8 @@
 }
 .fw{
     display: flex;
-    /* flex-wrap: wrap; */
-}
+     flex-wrap: wrap; 
+    }
 .imgtxt{
     color: #f75757;
     font-size: 20px;
@@ -295,6 +295,26 @@
     font-weight: 500;
     font-family:  sans-serif;
 }
+.ic1{
+    /* font-size: 30px; */
+    color: #919194;
+    margin-top: 40px;
+}
 .icon5{
-    col
+    font-size: 50px;
+    border: 1px solid #fff;
+    /* justify-content: left; */
+    padding-right: 10px;
+}
+.icon6{
+    margin-right: 200px;
+    font-size: 50px;
+    border: 1px solid #fff;
+    margin-left: 250px;
+}
+.icon7{
+    /* margin-right: 500px;
+    margin-right: 400px;*/
+    font-size: 50px; 
+    border: 1px solid #fff;    
 }

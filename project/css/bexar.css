@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.w-100{
+    width: 100%;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+}
+.header{
+    height: 60px;
+    background-color:darkslategray;
+}
+.fw{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    color: white;
+}
+.cnt1{
+    color: aqua;
+    /* background-color: blue; */
+    width: 50%;
+    margin-top: 10px; 
+}
+.cnt2{
+    color: aqua;
+    text-align: center;
+    /* background-color: blue; */
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.bar{
+    height: 80px;
+}
+.bic{
+        text-align: center;
+        width: 20%;
+        background-color: black;
+        color: aliceblue;    
+}
+.ic{
+    margin-top: 10px;    
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+.menu{
+    width: 80%;
+    color: aqua;
+    background-color: cadetblue;
+    text-align: center;
+}
+.menu1{
+    margin-top: 10px;
+    width: 100%;
+    word-spacing: 20px;
+    text-align: center;
+}
+.img{
+    margin-top: 20px;
+}
+.imgcnt{
+    background-color: chocolate;
+    width: 100%;
+    height: 600px;
+}
+.imgtxt{
+    width: 30%;
+    text-align: center;
+}
+.box{
+    margin-bottom: 10px;
+    position: relative;
+    top: -30px;
+}
+.box1{
+    border: 1px solid black;
+    width: 285px;
+    height: 400px;
+    display: block;    
+}
+.box2{
+    border: 1px solid black;
+    width: 285px;
+    height: 400px;    
+}
+.box3{
+    border: 1px solid black;
+    width: 285px;
+    height: 400px;    
+}
+.box4{
+    border: 1px solid black;
+    width: 285px;
+    height: 400px;    
+}

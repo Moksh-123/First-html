@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bkimg{
+    width: 500px;
+    background: url(/img/fon_two_l.png);
+    background-size: contain;
+    color: white;
+    background-repeat: no-repeat;
+}
+.w-100{
+    width: 100%;
+
+}
+
+.logoDiv
+{
+    width:100px ;
+    margin:auto;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+}
+.logo{
+    width: 100px;
+    /* margin-left: 700px; */
+    margin-top: 30px;
+}
+.menu{
+    padding-top: 10px;
+    font-size: 20px;
+    list-style: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    justify-content: center;
+}
+.menu li a{
+    /* padding-top: 10px; */
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-family: 'Unna';
+}
+.menu i{
+    color: black;
+    padding: 5px;
+}
+.menubk{
+    text-align: center;
+    border: 1px solid snow;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+}
+.fw{
+    display: flex;
+    flex-wrap: wrap;
+}
+.up_i{
+    font-size: 14px;
+    background: none;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 8px;
+    font-family: 'Unna';
+    /* margin-top: 20px; */
+}
+.midtxt{
+    color: black;
+    font-size:50px;
+    text-align: center;
+    padding-top: 65px;
+    font-family: 'Unna';
+}
+.midtxt1{
+    font-family: 'Unna';
+    color: black;
+    font-size: 87px;
+    text-align: center;   
+}
+.icon{
+    font-size: 40px;
+    justify-content: center;
+    margin-top: 100px;
+    color: green;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.bckimg{
+    background:  url(../img/bg_01.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.abttxt{
+    font-family: 'Unna';
+    padding-top: 150px;
+    color: black;
+    text-align: center;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+.txt2{
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:'Unna';
+}
+.ic1{
+    font-size: 50px;
+    color: gold;
+    padding-top: 40px;
+    padding-left: 130px;
+}
+.ichead{
+    padding-top: 30px;
+    font-size: 25px;
+    padding-bottom: 35px;
+    color: black;
+    padding-left: 45px;
+    font-family: 'Unna';
+}
+.ic1txt{
+    border: 0px solid rgb(208, 14, 14);
+    box-sizing: content-box;
+    width: 250px;
+    /* height: 300px; */
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    padding-left: 30px;
+    font-family: 'Unna';
+}
+.ic2{
+    color: gold;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-left: 130px;
+    text-align: center;
+}
+.icon2{
+    padding-left: 120px;
+}
+.icon3{
+    color: gold;
+    font-size: 50px;
+    padding-left: 85px;
+    padding-top: 30px;
+}
+.ic3{
+    text-align: right;
+    padding-top: 5px;
+    padding-left: 130px;
+}
+.bkcl{
+  background-color: rgba(0, 0, 0, 0.05);;
+}
+.info{
+    margin-top: 60px;
+    font-family: 'unna';
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}

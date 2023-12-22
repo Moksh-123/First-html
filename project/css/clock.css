@@ -1,0 +1,142 @@
+.circle{
+    margin: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 200px;
+    width: 405px;
+    height: 400px;
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+}
+.fw{
+    display: flex;
+    flex-wrap: wrap;
+}
+.clock li{
+    list-style: none;
+    position: absolute;
+}
+
+.box1{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100% 0% 100% 0% / 100% 100% 0% 0% ;
+}
+.box2{
+    border: 1px solid black;
+    width: 200px;
+    height: 196px;
+    border-radius:100% 0% 0% 100% / 0% 0% 100% 100% ;
+}
+.box3{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 0% 100% 0% 100% / 100% 100% 0% 0% ;
+}
+.box4{
+    border: 1px solid black;
+    width: 200px;
+    height: 196px;
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% ;
+}
+.num12{
+    position: absolute;
+    left: 185px;    
+}
+.num1{
+    position: absolute;
+    right: 93px;
+    bottom: 333px;
+}
+.num2{
+    position: absolute;
+    left: 360px;
+    top: 90px;
+}
+.num3{
+    position: absolute;
+    left: 390px;
+    top: 182px;
+}
+.num4{
+    position: absolute;
+    right: 24px;
+    top: 269px;
+}
+.num5{
+    position: absolute;
+    right: 84px;
+    bottom: 24px;
+}
+.num6{
+    position: absolute;
+    left: 193px;
+    bottom: -5px;
+}
+.num7{
+    position: absolute;
+    bottom: 27px;
+    left: 83px;
+}
+.num8{
+    position: absolute;
+    left: 21px;
+    bottom: 98px;
+}
+.num9{
+    position: absolute;
+    bottom: 178px;
+}
+.num10{
+    position: absolute;
+    top: 93px;
+    left: 23px;
+}
+.num11{
+    position: absolute;
+    top: 20px;
+    left: 86px;
+}   
+.num12{
+    position: absolute;
+}
+.second{
+    border: 2px solid greenyellow;
+    width: 180px;
+    height: 0px;
+    position: absolute;
+    bottom: 196px;
+    right: 18px; 
+    transform-origin: 0px;
+   animation: sec 60s infinite;
+}
+@keyframes sec{
+    0%{
+        rotate: 270deg;
+    }
+    
+    100%{0
+        rotate: 540deg;
+    }
+}
+.minutes{
+    border: 3px solid red;
+    width: 150px;
+    position: absolute;
+    bottom: 196px;
+    right: 46px;
+    transform-origin: 0px;
+    animation: min 3600s infinite;
+}
+@keyframes min{
+    0%{
+        rotate: 270deg;
+    }
+    
+    100%{
+        rotate: 540deg;
+    }
+}

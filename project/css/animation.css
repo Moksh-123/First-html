@@ -1,0 +1,155 @@
+.fw{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    margin-right: 40px;
+    width: 303px;
+    height: 203px;
+    border: 2px solid black;
+    box-sizing:  border-box;
+    margin-bottom: 20px;
+}
+.box:hover img{
+    animation-name: flash;
+    animation-duration: .75s;
+    /* opacity: 1; */
+}
+
+@keyframes flash{
+ 
+    0%{
+        opacity: 0.4;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+}
+
+.box1{
+    margin-right: 40px;
+    overflow: hidden;
+    width: 303px;
+    height: 203px;
+    border: 2px solid black;
+    box-sizing:  border-box;
+    margin-bottom: 20px;
+}
+
+.box1:hover img{
+    animation-name: flash;
+    animation-duration: .75s;
+    /* opacity: 1; */
+}
+
+@keyframes flash{
+ 
+    0%{
+        opacity: 0.4;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+}
+
+.box2{
+    margin-right: 40px;
+    overflow: hidden;
+    width: 278px;
+    height: 176px;
+    border: 2px solid black;
+    box-sizing:  border-box;
+    margin-bottom: 20px;
+}
+
+.box2:hover img{
+    animation-name: flash;
+    animation-duration: 0.75s;
+    /* opacity: 1; */
+}
+
+@keyframes flash{ 
+    0%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.box3{
+    position: relative;
+}
+.box3-1{
+    position: absolute;
+    left: -70px;
+    opacity: 0;
+    width: 20px;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    margin-right: 40px;
+    transform: skewX(-25deg);
+
+    filter:blur(10px)brightness(150%);
+}
+.box3:hover .box3-1{
+     animation: shine; 
+     animation-duration: .5s;
+}
+
+@keyframes shine {
+    0%{
+        opacity: 0;
+        left: -70px;
+    }
+    1%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        left: 350px;
+
+    }
+}
+.box4{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.box4-1{
+    position: absolute;
+	top: 100%;
+	left: 100%;
+	
+	
+	
+	width: 0;
+	height: 0;
+	background: rgba(255,255,255,.2);
+	border-radius: 100%;
+	
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+.box4:hover .box4-1{
+    animation: circle .75s;
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}

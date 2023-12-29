@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Psudo Element 2</title>
+  <style>
+    /* div::first-line{
+      color:red;
+      font-size: 60px;
+    }
+
+    div::selection{
+      color: green;
+      background-color: yellow;
+    }
+
+    div::before{
+      content: "Hello";
+    }
+
+    div::after{
+      content: "Last";
+    } */
+    /* Space selector (Any child selector) */
+    /* div h1{
+      color: red;
+    } */
+
+    /* > selector (direct child selector) */
+    /* div > h1{
+      color : green
+    } */
+
+
+    /* ~ any sibling selector */
+
+    /* div ~ p{
+      color: blue;
+    } */
+
+    /* + direct sibling selector */
+    div + p{
+      color: aqua;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <div>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, placeat autem nemo quas, esse est vitae deserunt et iusto facilis pariatur voluptates aspernatur tempore provident? Officiis consequuntur ab maiores ratione.
+  </div> -->
+
+  <div class="div">
+    <h1>heading 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque nulla odit suscipit atque eos
+      at inventore ex, cupiditate nobis? Temporibus fugiat soluta officiis nisi possimus vel ipsam
+      harum, dolorem autem.</p>
+    <section>
+      <h1>section heading</h1>
+    </section>
+    <div class="subdiv">
+      <h1>sub Heading 2</h1>
+    </div>
+  </div>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam in cupiditate illo corporis, ut, harum sapiente
+    doloremque odit non quidem molestiae nobis? Explicabo corrupti tempora beatae est iure facere perspiciatis
+    temporibus a facilis commodi, cumque animi qui id odit dolorem asperiores enim iste consectetur inventore dolorum
+    doloribus molestias mollitia assumenda!
+  </p>
+  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, asperiores rerum facilis quos
+  pariatur dolorem debitis earum quasi quia, ratione, nam accusantium. Corporis ratione possimus
+  eaque molestias voluptas ad eum?</span>
+  
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, tenetur. Voluptas dicta, accusamus ut et quae repellat officia neque omnis at consequuntur nihil assumenda aspernatur placeat harum illum quisquam provident?</p>
+</body>
+
+</html>

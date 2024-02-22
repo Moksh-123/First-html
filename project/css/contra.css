@@ -15,7 +15,7 @@
     width: 100%;
     background-color: #EBEBEB;    
 }
-.icon{
+.ic1{
     width: 70%;
     color: #555;
     font-size: 16px;
@@ -26,4 +26,34 @@
 }
 .txt{
     padding-left: 5px;
+    color: #555;
+    font-size: 16px;
+}
+.w-70{
+    width: 70%;
+}
+.ic2 ,.ic3 ,.ic4{
+    padding-right: 20px;
+}
+/* @media (min-width:1201px) {
+
+} */
+.logo{
+    padding-top: 40px;
+    width: 215px;  
+    margin-left: 42px;  
+}
+.infobox{
+    font-size: 15px;
+    list-style: none;
+    padding-top: 40px;
+    padding-left: 220px;
+    color: #555;
+}
+.Email{
+    font-size: 15px;
+    list-style: none;
+    padding-top: 40px;
+    padding-left: 40px;
+    color: #555;
 }

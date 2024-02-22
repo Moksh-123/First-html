@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+}
+.fw{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header{
+    width: 100%;
+    background-color: #EBEBEB;    
+}
+.icon{
+    width: 70%;
+    color: #555;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    word-spacing: 2px;
+   
+}
+.txt{
+    padding-left: 5px;
+}

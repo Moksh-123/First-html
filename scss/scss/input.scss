@@ -1,0 +1,37 @@
+@import "var";
+@import "mixin";
+
+body {
+    background-color: $tColor;
+}
+
+
+.q100 {
+    width: 100%;
+
+    @include text-normal;
+}
+
+.w1140 {
+    width: 1140px;
+    .h1{
+        img{
+            width: 100%;
+        }
+
+        &:hover{
+            color: $pColor;
+
+            img{
+                transform: translate(40%);
+            }
+        }
+
+        #{&}Child{
+            color: red;
+        }
+    }
+
+
+}
+

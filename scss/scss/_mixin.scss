@@ -1,0 +1,9 @@
+@mixin text-normal{
+    font-size: 50px;
+    color: green;
+    background-color: red;
+}
+
+@mixin flex{
+    display: flex;
+}

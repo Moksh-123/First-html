@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  background-color: khaki;
+}
+.menu li {
+  border: 1px solid black;
+  display: block;
+  padding: 5px;
+  margin: 0px 4px;
+}
+.menu li:hover {
+  background-color: yellow;
+}
+
+.hov1 .cMenu {
+  display: none;
+  position: absolute;
+}
+.hov1:hover .cMenu {
+  display: block;
+}
+
+/*# sourceMappingURL=menu.css.map */

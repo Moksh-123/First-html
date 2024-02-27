@@ -1,0 +1,28 @@
+body {
+  background-color: blue;
+}
+
+.q100 {
+  width: 100%;
+  font-size: 50px;
+  color: green;
+  background-color: red;
+}
+
+.w1140 {
+  width: 1140px;
+}
+.w1140 .h1 img {
+  width: 100%;
+}
+.w1140 .h1:hover {
+  color: red;
+}
+.w1140 .h1:hover img {
+  transform: translate(40%);
+}
+.w1140 .h1 .w1140 .h1Child {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

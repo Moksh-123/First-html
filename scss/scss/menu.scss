@@ -1,0 +1,35 @@
+@import "var";
+@import "mixin";
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.menu
+{
+    @include flex;
+    list-style: none;
+    li{
+        border: 1px solid black;
+        display: block;
+        padding: 5px;
+        margin: 0px 4px;
+
+        &:hover{
+            background-color: yellow;
+        }
+    }
+    background-color: khaki;
+}
+
+.hov1{
+    .cMenu{
+        display: none;
+        position: absolute;
+    }
+    &:hover{
+        .cMenu{
+            display: block;
+        }
+    }
+}

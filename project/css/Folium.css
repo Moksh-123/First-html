@@ -19,10 +19,14 @@
 }
 .bg{
     background-color: black;
-    
+    height: 1000px;
 }
+
 .container{
     padding-top: 20px;
+    position: sticky;
+    top: 0;
+    background-color: black;
 }
 .list li{
     color:white;
@@ -75,17 +79,19 @@
     font-family: "Open Sans", sans-serif;
     text-transform: capitalize;
     font-size: 30px;
+    padding-top: 20px;
 }
 .ic{
     color: #999;
     padding: 3px;
     font-size: 20px;
     margin-top: 15px;
+    
 }
 .box2{
     border:1px solid #999;
     box-sizing: border-box;
     border-radius: 26px;
     margin-right: 15px;
-    
+    margin-top: 50px;
 }

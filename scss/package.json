@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "text-scss":"sass --watch --update scss/input.scss:css/style.css",
-    "main-com":"sass --watch --update scss/menu.scss:css/menu.css"
+    "main-com":"sass --watch --update scss/menu.scss:css/menu.css",
+    "air-scss":"sass --watch --update scss/air.scss:css/air.css"
   },
   "author": "",
   "license": "ISC",

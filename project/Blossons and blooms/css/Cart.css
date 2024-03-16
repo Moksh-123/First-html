@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+}
+.box1{
+    border: 2px double black;
+    box-sizing: border-box;
+    height: 800px;
+    width: 570px;
+    overflow: scroll;
+}
+.txt1{
+    margin-top: 15px;
+    font-family: Inter;
+    font-size: 40px;
+    padding-left: 10px;
+}
+.icon1 i{
+    font-size: 40px;
+    color: black;   
+    margin-top: 23px;
+    padding-left: 436px;
+}
+.sb{
+    justify-content: space-around;
+}
+.img1{
+    height: 30px;
+}
+.txt2{
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 70px;
+}

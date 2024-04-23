@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bc{
+    background-color: rgba(99, 34, 101, 1);
+}
+.txt1{
+    font-family: Unna;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.04px;
+    text-align: center;
+    color: white;
+}
+.bc1{
+    background-color: rgba(245, 245, 245, 1);
+    height: 150px;
+}
+.txt2{
+    font-family: Unna;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.43px;
+    text-align: left;
+}
+.sa{
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.ic1{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.sa1{
+    justify-content: space-around;
+}
+.ic1 a{
+    text-decoration: none;
+    color: black;    
+}
+.menu1 a{
+    color: black;
+    text-decoration: none;
+    font-family: Unna;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.65px;
+    text-align: left;
+}
+.box1{
+    border: 1px black solid;
+    box-sizing: border-box;
+    height: 500px;
+}
+.bgimg{
+    background-image: url(../images/bg.png);
+}
+.txt3{
+    font-family: Unna;
+    font-size: 29.75px;
+    font-weight: 700;
+    line-height: 34.27px;
+    text-align: left;
+}
+.txt4{
+    font-family: Unna;
+    font-size: 17.85px;
+    font-weight: 400;
+    line-height: 20.56px;
+    text-align: left;
+    color: rgba(99, 34, 101, 1);
+}
+.txt5 a{
+    font-family: Unna;
+    font-size: 23.64px;
+    font-weight: 400;
+    line-height: 27.23px;
+    text-align: left;
+    color: rgba(119, 119, 119, 1);
+    text-decoration: none;
+}
+.sb{ 
+    padding-top: 50px;
+    justify-content: space-between;
+}
+.bx1{
+    border: 0px solid black;
+    background-color: rgba(245, 245, 245, 1) ;
+}
+.txt6 a{
+    font-family: Unna;
+    font-size: 19.83px;
+    font-weight: 400;
+    line-height: 22.85px;
+    text-align: left;
+    padding-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+.rp{
+    font-family: Unna;
+    font-size: 19.83px;
+    font-weight: 700;
+    line-height: 22.85px;
+    text-align: left;
+    padding-left: 25px;
+}
+.bgimg{
+    background-image: url(../images/Design.png);
+}
+.txt7{
+    font-family: Unna;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: center;
+}
+.txt8{
+    font-family: Unna;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.74px;
+    text-align: center;
+}
+.bgimg3{
+    background-image: url(../images/The-Floral-Domb-DreamzKraft\ 1.png);
+}
+.txt9{
+    padding-top: 180px;
+    color: white;
+    font-family: Unna;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 51.84px;
+    text-align: center;
+}
+.txt10{
+    font-family: Unna;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: white;
+}
+.box3{
+    /* border: 1px solid black; */
+    width: 115px;
+    background-color:rgba(99, 34, 101, 1);
+    color: white;
+    padding: 4px;
+}
+.bg{
+    background-color: rgba(245, 245, 245, 1);
+    height: 205px;
+}
+.bg1{
+    background-color: rgba(0, 0, 0, 1);
+    height: 220px;
+}

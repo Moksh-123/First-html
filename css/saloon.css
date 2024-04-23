@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../img/slide-1.jpg);
+    background-size: cover;
+    height: auto;
+}
+.logo{
+    padding-top: 10px;
+}
+.sa{
+    justify-content: space-between;
+    margin: auto;
+}
+.txtm{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    justify-content: space-between;
+    padding-left: 100px;
+    text-transform: uppercase;
+}

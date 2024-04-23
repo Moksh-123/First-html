@@ -110,8 +110,30 @@
     height: 205px;
 }
 .bg1{
-    background-color: rgba(255, 145, 123, 1);
+    background-color: rgba(0, 0, 0, 1);
+    
 }
 .sb{
     justify-content: space-between;
+}
+.tv a{
+    font-family: Unna;
+    font-size: 23.64px;
+    font-weight: 400;
+    line-height: 27.23px;
+    text-align: left;
+    color: rgba(119, 119, 119, 1);
+    text-decoration: none;
+}
+.wr{
+    text-decoration: none;
+    color: black;
+    font-family: Unna;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.04px;
+    text-align: left;
+}
+.wr p{
+    padding-left: 25px;
 }
